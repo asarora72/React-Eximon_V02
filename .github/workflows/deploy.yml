@@ -10,8 +10,10 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-    
-    steps:   
-    - uses: actions/checkout@v3
-    - name: Deploy react app to github pages
-      uses: ./.github/actions/git@github.com:asarora72/React-Eximon@master
+
+    steps:
+        - name: Checkout repository
+          uses: actions/checkout@v3
+  
+        - name: Run custom action
+          uses: git@github.com:asarora72/React-Eximon@master # Replace with the correct owner/repo@ref
