@@ -16,4 +16,4 @@ jobs:
           uses: actions/checkout@v3
   
         - name: Run custom action
-          uses: ./.github/actions/React-Eximon@master # Replace with the correct owner/repo@ref
+          uses: ./.github/actions/React-Eximon@v1.0.0 # Replace with the correct owner/repo@ref
