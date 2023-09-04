@@ -9,7 +9,10 @@
 /coverage
 
 # production
- /build
+# /build
+
+# source
+  /src
 # src/data/data.json 
 # misc
 .DS_Store
