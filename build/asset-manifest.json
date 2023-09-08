@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/React-Eximon/static/css/main.ae42ac5f.css",
+    "main.js": "/React-Eximon/static/js/main.be8f2e07.js",
+    "index.html": "/React-Eximon/index.html",
+    "main.ae42ac5f.css.map": "/React-Eximon/static/css/main.ae42ac5f.css.map",
+    "main.be8f2e07.js.map": "/React-Eximon/static/js/main.be8f2e07.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae42ac5f.css",
+    "static/js/main.be8f2e07.js"
+  ]
+}
