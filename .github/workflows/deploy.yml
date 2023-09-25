@@ -12,7 +12,5 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - uses: actions/checkout@v2
-
-    - name: Deploy react app to github pages
-      uses: asarora72@React-Eximon_V01@v1
+      - name: Checkout repository
+        uses: actions/checkout@v3
